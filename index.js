@@ -1,5 +1,5 @@
 function getResponse() {
-    fortunes = [
+    var fortunes = [
         'It will be',
         'Signs point to yes',
         'Live Mas',
