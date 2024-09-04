@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="style.css"></script>
-    <title>Magic 8 Ball</title>
+    <title>Magic 8 Div</title>
 </head>
 <body>
-    <div id="Eball">
-        <textarea id="response"></textarea>
+    <div style="text-align: center;">
+        <h1>Magic 8 Ball</h1>
+        <br>Click the Ball to receive wisdom
+        <br>
+        <br>
+        <button id="MagicBall" onclick="getResponse()">🎱</button>
+        <br>
+        <br>
+        <div id="outputDiv"></div>
     </div>
-    <button onclick="shakeBall()" id="Magic">🎱</button>
     <script src="index.js"></script>
 </body>
 </html>
