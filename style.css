@@ -1,5 +1,32 @@
+h1{
+    color:blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    color:cornflowerblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
+    text-align: center;
     margin: 10px;
     padding: 5px;
-    border: 1px dotted blue;
+    border: 1px dotted blueviolet;
+    background-color:midnightblue;
+}
+
+button{
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    border-color: blue;
+    font-size: 50px;
+}
+
+#outputDiv{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    background-color:darkviolet;
+    margin: 50px;
+    border-radius: 10px;
 }
